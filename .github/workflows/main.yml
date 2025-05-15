@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Obter código"
-      - run: ech "Executar testes"
+      - run: echo "Executar testes"
       - run: echo "Build da imagem Docker"
       - run: echo "Push da imagem Docker"
       

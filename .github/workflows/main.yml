@@ -58,4 +58,4 @@ jobs:
           manifests: |
             ./02-review/k8s/deployment.yaml
           images: | 
-            fabricioveronez/review-jornada:v${{ github.run_number }}
+            32f82309cf2f/review-jornada:v${{ github.run_number }}

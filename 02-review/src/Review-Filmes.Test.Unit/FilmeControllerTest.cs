@@ -43,7 +43,7 @@ namespace Review_Filmes.Test.Unit
 			ClassicAssert.NotNull(result);
 			Assert.That(result.ActionName, Is.EqualTo("Get"));
 			Assert.That(result.ControllerName, Is.EqualTo("Filme"));
-			Assert.That((int)result.RouteValues["id"], Is.EqualTo(1));		
+			Assert.That((int)result.RouteValues["id"], Is.EqualTo(2));		
 		}
 	}
 }

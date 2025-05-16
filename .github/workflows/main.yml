@@ -31,8 +31,8 @@ jobs:
         with:
           # Nome da Imagem
           tags: | 
-            fabricioveronez/review-jornada:v${{ github.run_number }}
-            fabricioveronez/review-jornada:latest
+            32f82309cf2f/review-jornada:v${{ github.run_number }}
+            32f82309cf2f/review-jornada:latest
           # Contexto 
           context: ./02-review/src
           # Dockerfile   
